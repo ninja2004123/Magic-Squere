@@ -69,7 +69,7 @@ int formingMagicSquare(vector<vector<int>> s) {
 
 
 bool SolveMagicSquere(vector<vector<int>> &Squere, int row, int col){
-    // Break case
+    // Break the recursion
     if (row == N-1 && col == N)
         return IsSolved(Squere);    // This is also used to backtrace
     
